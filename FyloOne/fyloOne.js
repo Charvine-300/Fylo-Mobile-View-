@@ -192,7 +192,7 @@ var setUp = function() {
     }
 
     //Mobile to Desktop
-    if (window.innerWidth > 800) {
+    if (window.innerWidth > 1000) {
         var swirl = document.createElement("img");
         con.append(swirl);
 
