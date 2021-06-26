@@ -11,16 +11,8 @@ function setUp() {
     var diva = barge[4].getElementsByTagName("h2");
     console.log(diva);
 
-    //innerHTML method: Makes changes to nodes
-    div[0].innerHTML = "Shiniest Limit";
-    diva[0].innerHTML = "Line In The Sand";
-
     var back = document.getElementsByTagName("body");
     console.log(back); 
-
-    var myp = barge[1].getElementsByTagName("p");
-    console.log(myp);
-    myp[0].innerHTML = "Deliverance Sky";
 
 
     //Fylo SignIn Functionality
