@@ -14,7 +14,7 @@ h1, h2, p {
 #container {
     font-size: 0px;
     height: 2000px;
-    width: 800px;
+    width: 1000px;
     margin: 0px auto;
     background-color: #232c3b;
 }
@@ -212,7 +212,7 @@ h1 {
     line-height: 80px;
     margin-top: 650px;
     margin-left: 40px;
-    margin-right: 330px;
+    margin-right: 0px;
     position: absolute; 
     text-align: center;
     font-family: var(--fonttype-font-family);
