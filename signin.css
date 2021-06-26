@@ -1,5 +1,5 @@
 body {
-    background-color: #ffffff;
+    background: linear-gradient(180deg, #16165a 50%, #000000);
 }
 
 
@@ -9,12 +9,22 @@ body {
 }
 
 #container {
-    width: 375px;
+    width: 1000px;
     height: 750px;
     margin: 0px auto;
     background: linear-gradient(180deg, #16165a 50%, #000000);
 }
 
+#next {
+    width: 100px;
+    height: 30px;
+    color: #000000;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-family: monospace;
+    border: 3px solid #ffffff;
+    background-color: #ffffff;
+}
 
 
 /*==========  Class Rules  ==========*/
@@ -35,34 +45,28 @@ body {
 
 /*==========  Element Rules  ==========*/
 img {
-    margin-top: 40px;
-    margin-left: 25px;
-    margin-bottom: 20px;
+    width: 400px;
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 label {
-    font-size: 20px;
+    font-size: 30px;
     color: #ffffff;
     font-family: monospace;
 }
 
 input {
-    width: 250px;
+    width: 400px;
     border: none;
     color: #ffffff;
     font-size: 15px;
-    padding-top: 15px;
+    padding-top: 20px;
     background-color: #16165a;
     border-bottom: 3px solid #ffffff;
 }
 
-#next {
-    width: 80px;
-    height: 25px;
-    color: #000000;
-    border-radius: 20px;
-    font-weight: bolder;
-    font-family: monospace;
-    border: 3px solid #ffffff;
-    background-color: #ffffff;
-}
+
+

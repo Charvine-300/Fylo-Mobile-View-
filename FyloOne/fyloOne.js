@@ -48,7 +48,7 @@ var setUp = function() {
     Used();
 
 
-    if (window.innerWidth > 900) {
+    if (window.innerWidth > 1000) {
         function Track() {
             if (list[jungle] < 10) {
                 track.style.width = "16px";

@@ -12,13 +12,13 @@ function setUp () {
 
 
     button.onmousedown = function() {
-        next.style.width = "75px";
-        next.style.height = "23px"
+        next.style.width = "95px";
+        next.style.height = "27px"
     }
 
     button.onmouseup = function() {
-        next.style.width = "80px";
-        next.style.height = "25px"
+        next.style.width = "100px";
+        next.style.height = "30px"
     }
 
     /*button.onclick = function(event) {
@@ -26,7 +26,6 @@ function setUp () {
         username = myForm.user.value;
         console.log(username);
     }
-    
     button.onclick(submit);*/
     
 

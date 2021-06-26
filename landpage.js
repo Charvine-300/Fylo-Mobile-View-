@@ -22,12 +22,11 @@ function setUp() {
     }
 
     page.onmousedown = function() {
-        page.style.fontSize = "20px";
+        page.style.fontSize = "25px";
     }
     page.onmouseup = function() {
-        page.style.fontSize = "23px";
+        page.style.fontSize = "30px";
     }
-
     page.onclick = function() {
         setTimeout(Bamer, 1000);
     }
